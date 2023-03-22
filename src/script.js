@@ -11,8 +11,8 @@ Consigli del giorno:
 
 /**
  * Inizio a prendere tutto le mie const dal mio html
- * Costruisto un array
- * Creo la funzione sul mio start per creare i numeri ed avviare il time out
+ * Costruisto un array legato agli input 
+ * Creo la funzione sul mio start per creare i numeri(funzione per creare numeri casuali da 1 - 100 pc) ed avviare il time out affinchè poi scompaiaino
  * (setTimout(funzione)) per avviare la conta dei secondi
  * nb moltiplicare x 1000 per quanto riguarda i secondi 
  * creare un evento al check per verificare i numeri corretti per poi scrivere il risultato
