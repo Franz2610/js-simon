@@ -10,15 +10,20 @@
     <title>Simon</title>
 </head>
 <body>
-    <div>
-
+    <div id="container" class=" container justify-content-center align-items-center card">
+        <button id="start" class="btn btn-warning">Clicca per cominciare</button>
+        <div id="numPc"></div>
+        <div id="numInput" class="d-none" class="justify-content-center align-items-center card">
+            <input placeholder="Numero 1" type="number" id="number-1"><br>
+            <input placeholder="Numero 2" type="number" id="number-2"><br>
+            <input placeholder="Numero 3" type="number" id="number-3"><br>
+            <input placeholder="Numero 4" type="number" id="number-4"><br>
+            <input placeholder="Numero 5" type="number" id="number-5"><br>
+            <button id="check" class="btn btn-danger">Verifica il risultato</button>
+        </div>
+        <div id="text"></div>
     </div>
-    
-
-
-
 
     <script src="./src/script.js" charset="utf-8"></script>
-    <script src="./src/utility.js" charset="utf-8"></script>
 </body>
 </html>
